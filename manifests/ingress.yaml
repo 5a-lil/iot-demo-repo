@@ -5,13 +5,13 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - host: myapp.local
+  - host: wil.local
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: myapp-svc
+            name: wil-svc
             port:
               number: 80
