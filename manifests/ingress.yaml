@@ -5,8 +5,7 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - host: wil.local
-    http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
