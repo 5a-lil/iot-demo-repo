@@ -5,7 +5,7 @@ metadata:
   namespace: dev
 spec:
   selector:
-    app: myapp
+    app: wil-app
   ports:
   - port: 80
     targetPort: 80
